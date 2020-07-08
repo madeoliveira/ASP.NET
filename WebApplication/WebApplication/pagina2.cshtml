@@ -1,4 +1,6 @@
 ﻿@{
+
+    Layout = "_layouts.cshtml";
     Page.Title = "Página 2";
     //Layout = "Your Layout Page goes here";
 }
@@ -11,18 +13,15 @@
 <head>
     <title> @Page.Title</title>
 </head>
-
-
-
-        }
 <body>
 
-    @RenderPage("_header.cshtml")
 
 
-    <p> Conteúdo da página central</p>
+    <p> Conteúdo da página 2</p>
 
     <p>Olá Mundo!</p>
+
+
     <p>Olá ASP.NET</p>
     <p>@DateTime.Now </p>
 
@@ -32,7 +31,7 @@
 
 
 
-    @RenderPage("_footer.cshtml")
+
 </body>
 
 </html>
