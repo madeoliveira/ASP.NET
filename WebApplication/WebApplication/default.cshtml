@@ -36,12 +36,25 @@
 
 }
 <body>
+
+    @RenderPage("_header.cshtml")
+
+
+    <p> Conteúdo da página central</p>
+
     <p>Olá Mundo!</p>
     <p>Olá ASP.NET</p>
     <p>@DateTime.Now </p>
     <p>valor @valor , @valor1 , @valor2, @valor3 e @paragrafo </p>
     <p>Total Valor1 + Valor4 é @(valor1+valor4)</p>
 
+    <a href="pagina1.cshtml">Página 1</a></p>
+    <a href="pagina2.cshtml">Página 2</a></p>
+
+
+
+
+    @RenderPage("_footer.cshtml")
 </body>
 
 </html>

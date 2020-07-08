@@ -1,0 +1,39 @@
+﻿@{
+    Page.Title = "Página 1";
+    //Layout = "Your Layout Page goes here";
+}
+
+    
+        <!DOCTYPE html>
+        <html>
+
+
+        <head>
+            <title> @Page.Title</title>
+        </head>
+
+       
+
+        }
+        <body>
+
+            @RenderPage("_header.cshtml")
+
+
+            <p> Conteúdo da página central</p>
+
+            <p>Olá Mundo!</p>
+            <p>Página 1</p>
+            <p>Olá ASP.NET</p>
+            <p>@DateTime.Now </p>
+            
+            <p><a href="~/default.cshtml">Página Inicial</a></p>
+            <p><a href="pagina2.cshtml">Página 2</a></p>
+
+
+
+
+            @RenderPage("_footer.cshtml")
+        </body>
+
+    </html>
