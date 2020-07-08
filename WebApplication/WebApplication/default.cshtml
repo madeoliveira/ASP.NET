@@ -1,0 +1,47 @@
+﻿@{
+    Page.Title = "Página ASP.NET (Razor)";
+
+
+    // Comentário
+
+
+
+       /*
+        * Comentário
+        * Comentário
+        *  Comentário
+        * Comentário
+        * Comentário
+        * Comentário
+        */
+}
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title> @Page.Title</title>
+</head>
+
+@{ 
+    int valor4 = 2020;
+    int valor1 = 1000;
+    float valor2 = 10.45f;
+    decimal valor3 = 10000;
+    bool valor = true;
+    string paragrafo = "Paragrafo";
+
+
+
+}
+<body>
+    <p>Olá Mundo!</p>
+    <p>Olá ASP.NET</p>
+    <p>@DateTime.Now </p>
+    <p>valor @valor , @valor1 , @valor2, @valor3 e @paragrafo </p>
+    <p>Total Valor1 + Valor4 é @(valor1+valor4)</p>
+
+</body>
+
+</html>
